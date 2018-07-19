@@ -17,7 +17,8 @@ if (isset($_SERVER['HTTP_REFERER'])){
             );
             $urls[] = $url;
         }
-        echo json_encode($urls , JSON_UNESCAPED_SLASHES);
+        $cleaned = _e($urls);
+        echo json_encode($cleaned , JSON_UNESCAPED_SLASHES);
     }else{
         echo "stop changing things....";
     } 

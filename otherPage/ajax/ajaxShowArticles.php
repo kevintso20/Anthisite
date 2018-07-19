@@ -19,7 +19,8 @@ if (isset($_SERVER['HTTP_REFERER'])){
             );
             $articles[] = $article;
         }
-        echo json_encode($articles , JSON_UNESCAPED_SLASHES);
+        $cleaned = _e($articles);
+        echo json_encode($cleaned , JSON_UNESCAPED_SLASHES);
     }else{
         echo "stop changing things.....";
     }
