@@ -1,0 +1,227 @@
+/*   EVRYTHING IS BUILDED FOR BOOTSRAP 4  */
+
+html,
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: Quicksand !important;
+}
+
+/* NAVBAR*/
+
+.navbar {
+    background-color: transparent !important;
+    padding: 1% 0;
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-expand-lg .navbar-nav li a {
+    color: #D5D5D5 !important;
+}
+
+.navbar button {
+    border-radius: 5px;
+    border-color: white !important;
+    margin-right: 1em;
+    transform: scale(0.8);
+
+}
+
+.navbar-expand-lg .navbar-nav li a:hover,
+.navbar-expand-lg .navbar-nav li a:active {
+    color: #FFF !important;
+}
+
+nav div ul li {
+    padding-right: 4em;
+}
+
+
+/* Search styles */
+
+#s {
+    background: rgba(0, 0, 0, .375) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQBJREFUeNqslI0RgyAMhdENWIEVWMEVXIGO0BW6Ah2hHcGOoCPYEewINFzBe9IA9id37w4kfEZesHHOCSYUqSPJML+RJlELDwN1pMHxMZNMkr8RTgyz2YPH5LmtwXpIHkOFmKhIlxowDmYAycKnHAHYcTCsSpXOJCie6YWDnXKLGeHLN2stGaqDsXXrX3GFcYcLrfhjtKEhffQ792gYT2nT6pJDjCw4z7ZGdGipOIqNbXIwFUARmCbKpMfYxsWJBmCEDoW7+gYUTAU2s3HJrK3AJvMLkqGHFLgWXTckm+SfSQexs+tLRqwVfgvjgMsvMAT689S5M/sk/I14kO5PAQYAuk6L1q+EdHMAAAAASUVORK5CYII=) no-repeat 14px 14px;
+    text-indent: 1em;
+    display: inline-block;
+    border: 0 none;
+    width: 0;
+    height: 3em;
+    border-radius: 3em;
+    -webkit-transition: .3s;
+    transition: .3s;
+    outline: none;
+    padding: 1em 1.5em;
+    cursor: pointer;
+    -webkit-appearance: none;
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    color: #999;
+    vertical-align: baseline;
+}
+
+input[type=search]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+#s:hover,
+#s:focus {
+    background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAT5JREFUeNqsVLtOw0AQtIMlRJHCEhUVMg398QEUSZnSfILzCXxDPsFu6XAJHWnTcS1lWsprKdmLxtKwvjVBYaTV7cm+udnX5fPb+yyBSmwhVmK/FfPZLyjUPhI8YtXYi23EOovs7PzyevAbsWeoGg5HNUHsCipX8F9TZDOstVgLPxIsxW6w3sHv6dJ2StkLbh6IPtR/AWRfSIET20H9D2U1hfaAgxY2KMagcBSmg9/rmwx0lBqTzGfHoVfVHxXgXzCjHNRHnnHke4vMGc2q0RBR0GSeCLlpLaJGFWKUszVuib32nih7iTFrjXAPyGnQ48c3Gu5AOVlMtMk6NZuf+FiC+AIhV0T+pBQ5ntXceIJKqKko2duJ2TwoLAz5QTVnagJaXWEO8y/wSMuKH9RTJoCTHyNZFidOUEfNu/8WYAAOXUT04MOtlwAAAABJRU5ErkJggg==) 14px 14px no-repeat;
+}
+
+#s:focus {
+    width: 100%;
+    cursor: text;
+}
+
+/* CAROUSEL*/
+
+.carousel-indicators {
+    position: relative;
+}
+
+.carousel-indicators li {
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: .3em;
+}
+
+.carousel-indicators li:hover {
+    transform: scale(1.05);
+}
+
+.carousel-indicators img {
+    width: 120px !important;
+    height: 70px !important;
+}
+
+.carousel-item img {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 700px;
+}
+
+/*JUMBATRON*/
+
+.jumbotron {
+    border-radius: 5px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #3f3f3f;
+}
+
+footer p,
+h2,
+h3 {
+    color: #d5d5d5;
+}
+
+footer h2 {
+    font-size: 1.6em;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+
+/*MEDIA QUERY*/
+
+@media (max-height: 800px) {
+    .carousel-item img {
+        height: 500px;
+    }
+
+}
+
+@media (max-height: 670px) {
+    .carousel-item img {
+        height: 400px;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+@media (max-height: 420px) {
+    .carousel-item img {
+        height: 250px;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+
+@media (max-width: 675px) {
+    #theCarousel {
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+
+
+@media (max-width: 750px) {
+    .gallery {
+        margin: 0;
+        padding: 0;
+    }
+    .container-fluid {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    #big_img_block {
+        margin: 0px;
+        padding: 0px;
+    }
+    .current-image-wrapper {
+        padding: 0px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .gallery {
+        width: 100%;
+
+    }
+    .thumbnails li,
+    .thumbnails a,
+    .thumbnails img {
+
+        width: 3em;
+        height: 2.2em;
+    }
+}
+
+@media (min-width:1400px) {
+    .gallery {
+        padding-top: 0.5em;
+    }
+}
+
+@media (min-width:1800px) {
+    .gallery {
+        padding-top: 0.85em;
+    }
+    .carousel-item img {
+        height: 1500px;
+    }
+    #theCarousel {
+        margin-top: 1em;
+    }
+
+}
+
+@media (min-width:2100px) {
+    .gallery {
+        padding-top: 1.3em;
+    }
+}

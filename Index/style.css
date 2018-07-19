@@ -1,0 +1,283 @@
+/*   EVRYTHING IS BUILDED FOR BOOTSRAP 3  */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Quicksand;
+    overflow-x: hidden;
+}
+
+/* NAVBAR*/
+
+.navbar {
+    background: rgba(0, 0, 0, 0.5) !important;
+    padding: 1% 0;
+    font-size: 1.2em;
+}
+
+
+.navbar-default .navbar-nav li a {
+    color: #D5D5D5;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:active {
+    color: #FFF;
+}
+
+
+nav div ul li {
+    padding-right: 3em;
+}
+
+/* Search styles */
+
+#s {
+    background: rgba(0, 0, 0, .375) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQBJREFUeNqslI0RgyAMhdENWIEVWMEVXIGO0BW6Ah2hHcGOoCPYEewINFzBe9IA9id37w4kfEZesHHOCSYUqSPJML+RJlELDwN1pMHxMZNMkr8RTgyz2YPH5LmtwXpIHkOFmKhIlxowDmYAycKnHAHYcTCsSpXOJCie6YWDnXKLGeHLN2stGaqDsXXrX3GFcYcLrfhjtKEhffQ792gYT2nT6pJDjCw4z7ZGdGipOIqNbXIwFUARmCbKpMfYxsWJBmCEDoW7+gYUTAU2s3HJrK3AJvMLkqGHFLgWXTckm+SfSQexs+tLRqwVfgvjgMsvMAT689S5M/sk/I14kO5PAQYAuk6L1q+EdHMAAAAASUVORK5CYII=) no-repeat 14px 14px;
+    text-indent: 1em;
+    display: inline-block;
+    border: 0 none;
+    width: 0;
+    height: 3em;
+    border-radius: 3em;
+    -webkit-transition: .3s;
+    transition: .3s;
+    outline: none;
+    padding: 1em 1.5em;
+    cursor: pointer;
+    -webkit-appearance: none;
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    color: #999;
+    vertical-align: baseline;
+}
+
+input[type=search]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+#s:hover,
+#s:focus {
+    background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAT5JREFUeNqsVLtOw0AQtIMlRJHCEhUVMg398QEUSZnSfILzCXxDPsFu6XAJHWnTcS1lWsprKdmLxtKwvjVBYaTV7cm+udnX5fPb+yyBSmwhVmK/FfPZLyjUPhI8YtXYi23EOovs7PzyevAbsWeoGg5HNUHsCipX8F9TZDOstVgLPxIsxW6w3sHv6dJ2StkLbh6IPtR/AWRfSIET20H9D2U1hfaAgxY2KMagcBSmg9/rmwx0lBqTzGfHoVfVHxXgXzCjHNRHnnHke4vMGc2q0RBR0GSeCLlpLaJGFWKUszVuib32nih7iTFrjXAPyGnQ48c3Gu5AOVlMtMk6NZuf+FiC+AIhV0T+pBQ5ntXceIJKqKko2duJ2TwoLAz5QTVnagJaXWEO8y/wSMuKH9RTJoCTHyNZFidOUEfNu/8WYAAOXUT04MOtlwAAAABJRU5ErkJggg==) 14px 14px no-repeat;
+}
+
+#s:focus {
+    width: 100%;
+    cursor: text;
+}
+
+
+/*CAROUSEL*/
+
+.landing-text a {
+    color: white;
+    font-size: 1.5em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+
+}
+
+#myCarousel img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* CARDS */
+
+.index-content a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.index-content {
+    margin-bottom: 20px;
+    padding: 50px 0px;
+
+}
+
+.index-content .row {
+    margin-top: 20px;
+}
+
+.index-content a {
+    color: black;
+}
+
+.index-content .card {
+    background-color: #FFFFFF;
+    padding: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    height: 300px;
+}
+
+.index-content .card:hover {
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+.index-content .card img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.index-content .card h4 {
+    margin: 20px;
+}
+
+.index-content .card p {
+    margin: 20px;
+    opacity: 0.65;
+}
+
+.index-content .blue-button {
+    width: 100px;
+    -webkit-transition: background-color 1s, color 1s;
+    transition: background-color 1s, color 1s;
+    min-height: 20px;
+    background-color: #002E5B;
+    color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0px 20px 15px 20px;
+    padding: 5px 0px;
+    display: inline-block;
+}
+
+.btn-article {
+    -webkit-transition: background-color 1s, color 1s;
+    /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s, color 1s;
+    min-height: 20px;
+    background-color: #002E5B;
+    color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: lighter;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.index-content .blue-button:hover,
+.btn-article:hover {
+    background-color: #dadada;
+    color: #002E5B;
+}
+
+/* SOCIAL*/
+
+.social a {
+    font-size: 6.5em;
+    padding: 4rem;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-google-plus-g {
+    color: #dd4b39;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-facebook:hover,
+.fa-youtube:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover {
+    color: #d3d3d3;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #3f3f3f;
+}
+
+footer p,
+h2,
+h3 {
+    color: #d5d5d5;
+}
+
+footer h2 {
+    font-size: 1.6em;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+@media (max-width: 500px) {
+
+
+    #myCarousel .carousel-caption h1 {
+        font-size: 2em;
+    }
+    #myCarousel .carousel-caption h3 {
+        font-size: 1em;
+    }
+    .carousel-caption {
+        position: absolute;
+        top: 15%;
+
+    }
+    .carousel-caption a {
+        font-size: 1em;
+    }
+
+    .card {
+        margin-left: 0.7em;
+        margin-right: 0.7em;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .card {
+        margin-left: 1.7em;
+        margin-right: 1.7em;
+    }
+    .index-content .col-lg-4 {
+        margin-top: 20px;
+    }
+    .index-content .card {
+        margin-bottom: 15px;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1500px) {
+
+    .carousel-caption {
+        top: 37.5%;
+    }
+}

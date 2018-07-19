@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  min-height: 100%;
+  overflow-x: hidden;
+    
+}
+.media {
+	border-radius: 5px;
+    border-color: black;
+    background-color: #ddd;
+}
+
+@media (max-width : 750px){
+    .container{
+        margin-right: 20px;
+    }
+}

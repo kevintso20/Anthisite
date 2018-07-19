@@ -1,0 +1,11 @@
+
+# HTID:5583182: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile "/storage/ssd2/091/5179091/public_html/Anthisite/otherPage/.htpasswd"
+Require user anthi
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:5583182:
