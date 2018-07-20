@@ -1,4 +1,4 @@
-# Anthisite
+# Articles-Site-and-Gallery-Images
 This site is for Learning purposes and its created from empty files
 
 Inside the index folder there is an html file this is the first page
